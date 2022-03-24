@@ -130,3 +130,10 @@ let's predict the X_test  and then comparer it with y_test.
 [3, 8, 8, 0, 6, 6, 1, 6, 3, 1]
 [3, 8, 8, 0, 6, 6, 1, 6, 3, 1]
 ```
+# notes
+* you can load cnn_image_classification.model into your code without train the model from scratch, you can load the model using..
+```python
+  model=models.load_model('model path and name')
+  #then you can predict new image
+  model.predict('your image') # the image size should be 32x32 based on the input shape.
+```
