@@ -1,2 +1,4 @@
-# cifar-10
-Comparison the model accuracy between Artificial Neural Network And Convolutional Neural Network using CIFAR10 datasets
+# Image Classification using CIFAR10 dataset.
+
+Compare Image Classification model accuracy between Artificial Neural Network(ANN) And Convolutional Neural Network(CNN) using CIFAR-10 dataset
+
